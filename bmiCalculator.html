@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a target="_blank" href="https://www.youtube.com/@chaiaurcode">youtube channel</a>
+    </nav>
+    <div class="conatiner">
+        <h1>BMI Calculator</h1>
+        <form>
+            <p id="one"><label for="">Height in CM</label> <input id="height" type="text"></p>
+            <p id="two"><label for="">Weight in KG</label> <input id="weight" type="text"></p>
+            <button>Calculator</button>
+
+            <div id="result"></div>
+                  <div id="weight-guide">
+                    <h3>BMI weight guide</h3>
+                    <p>under weight=less than 18.6</p>
+                    <p>normal range=18.6 and 24.9</p>
+                    <p>overweight=greater than 24.9</p>
+                 </div>
+        </form>
+    </div>
+
+    <script src="bmi.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <h1>chai or js</h1>
+       <button id="start">Start</button>
+       <button id="stop">Stop</button>
+
+       <script>
+        //    setInterval(function(){
+        //       console.log("danish" , Date.now());
+        //    },2000)
+
+       /* const saydate=function(str){
+            console.log(str, Date.now());
+        }
+        const intervalid=setInterval(saydate , 2000 ,"hello")
+
+        clearInterval(intervalid)*/
+      
+        let intervalid;
+     const startwriting= function(str){
+               console.log(str);
+            intervalid= setInterval(startwriting, 2000, "hello danish");
+      }
+      function stopwriting(){
+          clearInterval(intervalid)
+      }
+      document.querySelector('#start').addEventListener('click' , startwriting)
+      document.querySelector('#stop').addEventListener('click' , stopwriting)
+        
+       </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+nav{
+    background-color: dimgray;
+    height: 55px;
+    border-radius: 3px;
+    
+}
+a{
+    border: 2px solid black;
+    position: relative;
+   left: 40%;
+   top: 27%;
+   color: black;
+   padding-left: 25px;
+   padding-right: 20px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   text-decoration: none;
+   margin-right: 8px;
+   background-color: rgb(95, 160, 148);
+   border-radius: 3px;
+   font-size: 25px;
+}
+#p1{
+    text-align: center;
+    margin-top: 250px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 13px;
+
+}
+#clock{
+     height: 35px;
+     width: 120px;
+     border: 2px solid black;
+     border-radius: 5px ;
+     position: relative;
+     left: 46%;
+     background-color: rgb(195, 255, 0);
+     /* padding-top: 10px;
+     padding-left:20px; */
+     text-align: center;
+     padding-top: 18px;
+     font-weight: bold;
+    
+}
